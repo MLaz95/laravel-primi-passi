@@ -13,7 +13,7 @@
     <div class="container text-center">
         <img src="{{ $imgPath }}" alt="cat" class="rounded-4" style="width: 600px;">
         <h2 class="my-3">{{ $text }}</h2>
-        <a href="{{ route('second') }}">Next</a>
+        <a href="{{ route('main') }}">Back</a>
     </div>
 
 
